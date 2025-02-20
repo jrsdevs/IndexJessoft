@@ -1,0 +1,7 @@
+.main-div {
+  justify-content: center;
+}
+
+.main-child {
+  max-width: 600px;
+}
