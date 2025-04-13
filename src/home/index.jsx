@@ -97,9 +97,11 @@ function App() {
           <Row className="justify-content-center">
             <Col md={6} className="text-center">
               <h5 className="mb-2">📞 Teléfono</h5>
-              <p className="text-info fs-5">+52 123 456 7890</p>
+              <p className="text-info fs-5">+52 557 697 1295</p>
               <h5 className="mb-2">✉️ Correo Electrónico</h5>
-              <p className="text-info fs-5">contacto@jessoft.dev</p>
+              <p className="text-info fs-5">
+                jesusramirezserrano1995@gmail.com
+              </p>
             </Col>
           </Row>
         </Container>
