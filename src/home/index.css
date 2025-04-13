@@ -1,0 +1,128 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  overflow: hidden;
+}
+
+.main-bg {
+  position: relative;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  min-height: 100vh;
+  z-index: 1;
+}
+
+/* Glitch Effect */
+.glitch {
+  position: relative;
+  color: white;
+  font-family: monospace;
+  animation: glitch 1s linear infinite;
+}
+
+.size-img {
+  width: 15rem;
+}
+
+/* .glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+}
+
+.glitch::before {
+  animation: glitchTop 1s infinite linear;
+  color: #0ff;
+  z-index: -1;
+}
+
+.glitch::after {
+  animation: glitchBottom 1s infinite linear;
+  color: #f0f;
+  z-index: -2;
+} */
+
+/* @keyframes glitch {
+  0% {
+    transform: none;
+  }
+  20% {
+    transform: skew(0.5deg, 0.5deg);
+  }
+  40% {
+    transform: skew(-0.5deg, -0.5deg);
+  }
+  60% {
+    transform: skew(0.5deg, -0.5deg);
+  }
+  80% {
+    transform: skew(-0.5deg, 0.5deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+@keyframes glitchTop {
+  0% {
+    transform: translate(0, 0);
+  }
+  10% {
+    transform: translate(-2px, -2px);
+  }
+  20% {
+    transform: translate(2px, -2px);
+  }
+  30% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(2px, 2px);
+  }
+  50% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes glitchBottom {
+  0% {
+    transform: translate(0, 0);
+  }
+  10% {
+    transform: translate(2px, 2px);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  30% {
+    transform: translate(2px, -2px);
+  }
+  40% {
+    transform: translate(-2px, -2px);
+  }
+  50% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+} */
+
+/* Matrix background effect */
+/* .matrix-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://media.giphy.com/media/oEI9uBYSzLpBK/giphy.gif")
+    center center / cover no-repeat;
+  opacity: 0.1;
+  z-index: 0;
+  pointer-events: none;
+} */
